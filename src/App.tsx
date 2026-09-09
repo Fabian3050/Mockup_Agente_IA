@@ -2681,10 +2681,9 @@ function LoginPage({ onLogin }: { onLogin: () => void }) {
                     <div className="absolute -left-10 -bottom-10 w-40 h-40 rounded-full bg-black/10 blur-xl pointer-events-none" />
 
                     <div className="relative z-10 flex items-center gap-3">
-                        <div className="w-auto h-20 rounded-xl bg-[#00aea7] p-1.5 shadow-md flex items-center justify-center  flex-shrink-0">
+                        <div className="w-full h-24 rounded-xl bg-[#00aea7] p-3 shadow-md flex items-center justify-center flex-shrink-0">
                             <img src="/logo-usach.png" alt="Escudo USACH" className="w-full h-full object-contain" />
                         </div>
-
                     </div>
                     <div className="translate-y-3">
                         <span className="text-xs font-semibold tracking-wider uppercase block text-white/80">VRIIC · USACH</span>
@@ -2712,8 +2711,13 @@ function LoginPage({ onLogin }: { onLogin: () => void }) {
                 </div>
 
                 <div className="md:col-span-7 p-8 md:p-10 flex flex-col justify-center">
-                    <div className="-mt-3 mb-3 h-30 w-800 rounded-xl  p-1.5  flex items-center justify-center">
-                        <img src="/public/Logo-ca.png" alt="Logo Ciencia Abierta" className="w-full h-full object-contain brightness-0" />
+                    <div className="flex items-center gap-4 -mt-3 mb-3">
+                        <div className="h-13 w-full rounded-xl p-1.5 flex items-center justify-center">
+                            <img src="/image-vriic.png" alt="Logo VRIIC" className="w-full h-full object-contain brightness-0" />
+                        </div>
+                        <div className="h-13 w-full rounded-xl p-1.5 flex items-center justify-center">
+                            <img src="/anid.png" alt="Logo ANID" className="w-full h-full object-contain brightness-0" />
+                        </div>
                     </div>
 
                     <div className="mb-6 flex items-center gap-4">
